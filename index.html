@@ -3,7 +3,7 @@
   const scriptURL = "https://script.google.com/macros/s/AKfycbzrRAiwEO1D2o4zf1swrNp7ADE9509rssJrkVSWz_Swn3kcDNuKyLty-vkV0xNSRyI6/exec"; // paste your Web App URL here
 
   document.getElementById("saveBtn").addEventListener("click", () => {
-    const payload = { name: "John Doe", score: 95 };
+    const payload = { name: "Sheldon Santiago", score: 88 };
 
     fetch(scriptURL, {
       method: "POST",
@@ -17,6 +17,7 @@
 fetch("https://script.google.com/macros/s/XXX/exec")
   .then(res => res.json())
   .then(data => console.log(data));
+
 
 
 </script>
